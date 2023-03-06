@@ -1,0 +1,15 @@
+.navStyle {
+  display: flex;
+  justify-content: space-around;
+  background: #a19d9d;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+}
+.navStyle a {
+  margin: 10px;
+}
+.navStyle a:hover {
+  color: black;
+  font-size: 25px;
+}
