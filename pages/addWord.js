@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef } from "react";
 
 export default function AddWord() {
   const submitWord = (e) => {
@@ -22,10 +22,9 @@ export default function AddWord() {
     frWord.current.value = "";
   };
 
-  useEffect(() => {}, []);
   const enWord = useRef();
   const frWord = useRef();
-  const [english, setEnglish] = useState();
+
   return (
     <div className=" mt-9 flex  flex-col items-center justify-center">
       <form onSubmit={submitWord}>
